@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar">
+        <nav>
+        <ul>
+        <li><a href="/mentorprofile.html">Home</a> </li>
+        <div class="dropdown">
+        <li><a href="#">Goals</a></li>
+        <div class="dropdown-content">
+        <li><a href="/shortterm.html">Short terms</a></li>
+        <li><a href="/Longterm.html">Long Terms</a></li>
+        </div>
+        </div>
+        <!-- <li><a href="#"></a></li> -->
+        <li><a href="/achievements.html">Achievements</a></li>  
+        </ul>
+        </nav>
+</div>
+<div class="todo-list">
+    <h1>To-do list</h1>
+<div class="row">
+   <input type="text" id="input-box" placeholder="Add your task"/>
+   <button onclick="addTask()">Add</button>
+</div>
+<ul id="list-container">
+</ul>
+</div>
+
+</div>
+<script src="script.js"></script> 
+</body>
+</html>
